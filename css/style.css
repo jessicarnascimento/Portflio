@@ -1,0 +1,47 @@
+@import "./global.css";
+@import "./header.css";
+@import "./introducao.css";
+@import "./experiencia.css";
+
+h4 {
+  text-transform: uppercase;
+  color: #8f8f8f;
+}
+
+.formacao {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 140px;
+  align-items: center;
+  padding: 60px 0px;
+  background: #141414;
+  color: #f0f0f0;
+}
+
+.grid-formacao {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.box-formacao {
+  background: #000;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.cinza6 {
+  color: #a3a3a3;
+}
+
+.cursos::before {
+  content: "";
+}
+
+footer {
+  background: #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 270px;
+  color: #f0f0f0;
+}
